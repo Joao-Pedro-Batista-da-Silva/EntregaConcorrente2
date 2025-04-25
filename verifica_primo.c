@@ -28,21 +28,21 @@ int ehPrimo(long long int n){
 
 void *executaTarefa(void *arg){
     tArgs *args = (tArgs *) arg;
+    long long int n_da_vez;
     //printf("\nentrei na thread %ld===============\n", args->id);
     while(n<=N){
         pthread_mutex_lock(&mutex);
-        if(n>N){
-            pthread_mutex_unlock(&mutex);
-            break;
-        }
-        //printf("thread %ld:total de %lld/%lld",args->id,n,N);
-        if(ehPrimo(n)){
-            //printf("\n%lld eh primo\n",n);
-            args->num_avaliados++;    
-        }
-        //else printf("\n%lld nao eh primo\n", n);
+        n_da_vez = n;
         n++;
         pthread_mutex_unlock(&mutex);
+        if(n_da_vez>N){
+            break;
+        }
+        if(ehPrimo(n_da_vez)){
+            //printf("eh primo %lld\n",n_da_vez);
+            args->num_avaliados++;    
+        }
+        //else printf("\n%lld nao eh primo\n", n_da_vez);
     }
     
     //printf("\nsai da thread %ld===============\n", args->id);

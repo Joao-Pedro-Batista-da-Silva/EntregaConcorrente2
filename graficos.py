@@ -56,5 +56,5 @@ def gera_plot(doc,tam):
     plt.tight_layout()
     plt.show()
 
-gera_plot('dados.csv', 1000)
+gera_plot('dados.csv', 1000000)
 
