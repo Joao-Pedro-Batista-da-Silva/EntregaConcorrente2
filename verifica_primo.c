@@ -44,10 +44,8 @@ void *executaTarefa(void *arg){
         }
         //else printf("\n%lld nao eh primo\n", n_da_vez);
     }
-    
     //printf("\nsai da thread %ld===============\n", args->id);
     pthread_exit(NULL);
-
 }
 
 
