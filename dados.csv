@@ -1,37 +1,60 @@
 totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
-168,1000,1, 0.000004, 0.000197, 0.000000, 0.000201
-168,1000,1, 0.000004, 0.000184, 0.000000, 0.000188
-168,1000,1, 0.000004, 0.000201, 0.000000, 0.000206
-168,1000,1, 0.000004, 0.000202, 0.000000, 0.000206
-168,1000,1, 0.000004, 0.000204, 0.000000, 0.000208
-
-168,1000,2, 0.000004, 0.000220, 0.000000, 0.000224
-168,1000,2, 0.000004, 0.000227, 0.000000, 0.000231
-168,1000,2, 0.000004, 0.000231, 0.000000, 0.000235
-168,1000,2, 0.000005, 0.000252, 0.000000, 0.000257
+168,1000,1, 0.000005, 0.000208, 0.000000, 0.000214
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,1, 0.000005, 0.000201, 0.000001, 0.000207
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,1, 0.000004, 0.000212, 0.000000, 0.000216
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,1, 0.000004, 0.000192, 0.000000, 0.000196
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,1, 0.000006, 0.000230, 0.000001, 0.000236
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
 168,1000,2, 0.000005, 0.000245, 0.000000, 0.000250
-
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,2, 0.000004, 0.000238, 0.000000, 0.000242
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,2, 0.000004, 0.000227, 0.000000, 0.000231
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,2, 0.000005, 0.000254, 0.000000, 0.000259
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,2, 0.000004, 0.000241, 0.000000, 0.000246
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,4, 0.000005, 0.000306, 0.000000, 0.000311
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,4, 0.000004, 0.000385, 0.000000, 0.000389
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,4, 0.000005, 0.000412, 0.000000, 0.000417
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
 168,1000,4, 0.000005, 0.000340, 0.000000, 0.000345
-168,1000,4, 0.000004, 0.000316, 0.000000, 0.000320
-168,1000,4, 0.000005, 0.000335, 0.000000, 0.000340
-168,1000,4, 0.000004, 0.000405, 0.000000, 0.000410
-168,1000,4, 0.000004, 0.000314, 0.000000, 0.000319
-
-78498,1000000,1, 0.000005, 0.060130, 0.000001, 0.060136
-78498,1000000,1, 0.000005, 0.060049, 0.000001, 0.060055
-78498,1000000,1, 0.000008, 0.059153, 0.000001, 0.059162
-78498,1000000,1, 0.000004, 0.058581, 0.000001, 0.058586
-78498,1000000,1, 0.000004, 0.060132, 0.000001, 0.060136
-
-78498,1000000,2, 0.000004, 0.045318, 0.000000, 0.045322
-78498,1000000,2, 0.000004, 0.045093, 0.000000, 0.045098
-78498,1000000,2, 0.000006, 0.044492, 0.000000, 0.044498
-78498,1000000,2, 0.000004, 0.046888, 0.000000, 0.046892
-78498,1000000,2, 0.000005, 0.045475, 0.000000, 0.045480
-
-78498,1000000,4, 0.000004, 0.049762, 0.000000, 0.049767
-78498,1000000,4, 0.000005, 0.049630, 0.000000, 0.049635
-78498,1000000,4, 0.000004, 0.049239, 0.000000, 0.049243
-78498,1000000,4, 0.000004, 0.048864, 0.000000, 0.048868
-78498,1000000,4, 0.000004, 0.049780, 0.000000, 0.049784
-
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+168,1000,4, 0.000004, 0.000308, 0.000000, 0.000312
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,1, 0.000005, 0.058272, 0.000001, 0.058278
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,1, 0.000005, 0.060441, 0.000001, 0.060447
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,1, 0.000005, 0.060624, 0.000001, 0.060630
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,1, 0.000004, 0.059505, 0.000001, 0.059510
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,1, 0.000005, 0.060347, 0.000001, 0.060353
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,2, 0.000005, 0.044712, 0.000000, 0.044717
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,2, 0.000005, 0.047000, 0.000000, 0.047005
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,2, 0.000004, 0.044844, 0.000000, 0.044849
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,2, 0.000007, 0.045190, 0.000000, 0.045197
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,2, 0.000004, 0.043862, 0.000000, 0.043866
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,4, 0.000004, 0.050415, 0.000000, 0.050419
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,4, 0.000004, 0.049195, 0.000000, 0.049199
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,4, 0.000004, 0.050966, 0.000000, 0.050970
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,4, 0.000004, 0.050014, 0.000000, 0.050018
+totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total
+78498,1000000,4, 0.000004, 0.050397, 0.000001, 0.050402

@@ -3,11 +3,26 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-def separa_por_tam(doc,tam):
+def remove_strings(doc):
     df = pd.read_csv(doc)
     
-    df_grupos = df.groupby("tamanhoN")
+    for i in df.index:
+        if(df['total'][i] == 'total' and i != 0):
+            df.drop(i, inplace=True)
+    for col in df.columns:
+        try:
+            df[col] = pd.to_numeric(df[col])
+        except (ValueError, TypeError):
+            pass
+    df = df.reset_index(drop=True)
+    return df
     
+
+def separa_por_tam(doc,tam):
+    df = remove_strings(doc)
+    
+    df_grupos = df.groupby("tamanhoN")
+    print(tam)
     df = df_grupos.get_group(tam)
     return df
 
@@ -34,6 +49,7 @@ def gera_eficiencia(doc,tam):
 
 def gera_plot(doc):
     tams = pd.read_csv('dados.csv')['tamanhoN'].unique()
+    tams = [int(tam) for tam in tams if str(tam).isdigit()]
     cols = math.ceil(math.sqrt(len(tams)))
     rows = math.ceil(len(tams)/cols)
     fig, axs = plt.subplots(rows, cols, figsize=(6*cols, 5*rows))
@@ -74,5 +90,6 @@ def gera_plot(doc):
     
     plt.tight_layout(pad=3.0)
     plt.show()
+
 gera_plot('dados.csv')
 

@@ -101,6 +101,7 @@ int main(int argc, char* argv[]){
         total_primos += (args+i)->num_avaliados;
     }
     GET_TIME(fim);
+    printf("totalPrimos,tamanhoN,nthreads,inicializacao,processamento,finalizacao,total\n");
     printf("%lld,", total_primos);
     printf("%lld,",N);
     printf("%d, ", nthreads);
