@@ -48,8 +48,6 @@ def gera_plot(doc):
         ax = axs[idx]
         height_bar = 0.3
         y = np.arange(len(num_threads))
-        #print(mean_tempo.values)
-        #print(np.array(aceleracao.values()))
 
         bar_tempo = ax.barh(y - height_bar, mean_tempo_percent.values,height=height_bar, color='blue', alpha = 0.6, label='Tempo')
         bar_acel = ax.barh(y, aceleracao.values(),height=height_bar, color='green', alpha=0.6, label='Aceleração')

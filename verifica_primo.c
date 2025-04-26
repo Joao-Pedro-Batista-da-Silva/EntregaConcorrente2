@@ -56,6 +56,7 @@ int main(int argc, char* argv[]){
     int nthreads;
     pthread_t *tid;
     tArgs *args;
+    long long int total_primos = 0;
     double inicializacao, inicio, fim, delta, total=0;
     GET_TIME(inicio);
     if(argc<3){
@@ -97,8 +98,10 @@ int main(int argc, char* argv[]){
             return 4;
         }
         //printf("thread %d: %ld de %lld\n", i, (args+i)->num_avaliados,N);
+        total_primos += (args+i)->num_avaliados;
     }
     GET_TIME(fim);
+    printf("%lld,", total_primos);
     printf("%lld,",N);
     printf("%d, ", nthreads);
     printf("%f, ", inicializacao);
