@@ -57,21 +57,22 @@ def gera_plot(doc):
 
         
         ax.bar_label(bar_tempo, labels=[f'{v:.5f} s' for v in mean_tempo.values], label_type='edge', padding= 5)
-        ax.bar_label(bar_acel, fmt='%.5f s', label_type='edge', padding= 5)
-        ax.bar_label(bar_efic, fmt='%.5f s', label_type='edge', padding= 5)
+        ax.bar_label(bar_acel, fmt='%.5f', label_type='edge', padding= 5)
+        ax.bar_label(bar_efic, fmt='%.5f', label_type='edge', padding= 5)
         ax.set_yticks(y)
         ax.set_yticklabels(num_threads)
         ax.set_xlabel('Valores')
         ax.set_ylabel('Número de threads')
         ax.set_title(f'Tamanho {tam}')
         ax.xaxis.set_visible(False)
-        ax.legend()
+        if(idx == 0):
+            ax.legend()
         max_value = max(
             max(mean_tempo_percent.values),
             max(aceleracao.values()),
             max(eficiencia.values())
         )
-        ax.set_xlim(0, max_value * 1.2)
+        ax.set_xlim(0, max_value * 1.5)
     
     plt.tight_layout(pad=3.0)
     plt.show()
