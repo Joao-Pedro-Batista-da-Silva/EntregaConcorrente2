@@ -38,14 +38,16 @@ void *executaTarefa(void *arg){
         if(n_da_vez>N){
             break;
         }
+        //printf("%lld\n",n_da_vez);
         if(ehPrimo(n_da_vez)){
-            //printf("eh primo %lld\n",n_da_vez);
+            //printf("thread %d: eh primo %lld\n", args->id, n_da_vez);
             args->num_avaliados++;    
         }
-        //else printf("\n%lld nao eh primo\n", n_da_vez);
+        //else printf("\nthread %d: %lld nao eh primo\n", args->id, n_da_vez);
     }
     //printf("\nsai da thread %ld===============\n", args->id);
     pthread_exit(NULL);
+    return 0;
 }
 
 
